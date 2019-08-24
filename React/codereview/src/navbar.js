@@ -9,6 +9,7 @@ function NavComponent(){
 		<li><NavLink style={{ textDecoration: 'none',color: 'white' }}  to="/MainFirstComponent" exact activeClassName="active"> Houses</NavLink></li>
 		<li><NavLink style={{ textDecoration: 'none',color: 'white' }}  to="/MainSecondComponent" exact activeClassName="active"> Apartments</NavLink></li>
 		<li><NavLink style={{ textDecoration: 'none',color: 'white' }} to="/MainThirdComponent" exact activeClassName="active"> Garages </NavLink></li>
+		<li><NavLink style={{ textDecoration: 'none',color: 'white' }} to="/MainFourthComponent" exact activeClassName="active"> Land </NavLink></li>
 		</ul>
 
 

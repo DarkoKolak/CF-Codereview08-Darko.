@@ -7,6 +7,7 @@ import MainFirstComponent from "./MainFIrstComponent";
 import MainSecondComponent from "./MainSecondComponent";
 import MainThirdComponent from "./MainThirdComponent";
 import RedirectMain from "./RedirectMain";
+import MainFourthComponent from "./MainFourthComponent"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <Route path ="/MainFirstComponent" exact component = {MainFirstComponent}/>
     <Route path ="/MainSecondComponent" exact component = {MainSecondComponent}/>
     <Route path ="/MainThirdComponent" exact component = {MainThirdComponent}/>
+    <Route path ="/MainFourthComponent" exact component = {MainFourthComponent}/>
     <Redirect to = "/RedirectMain"/>
     </Switch>
     </Router>
